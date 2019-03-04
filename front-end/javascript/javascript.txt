@@ -1,0 +1,41 @@
+Javascript
+-------------
+* Client-side scripting language 
+* Interprated Language 
+* Static HTML -> Dynamic 
+
+
+Syntax:
+<script type="text/javascript">
+ 
+ // single line comment 
+ /*  
+   Multi
+   line 
+   comments
+ */
+
+1- <head>...</head>
+2- <body>...</body>
+3- <head>&<body>
+4- External.js
+
+</script>
+
+* Functions:=> reusable code 
+----------------
+* Built-in functions 
+* User-defined functions 
+ 
+// Function declaration 
+function function_name()
+{
+  // function_body 
+}
+
+* Variables
+* Operators 
+
+* Control Statements (Prgram Control Flow)
+  1) Conditional Statements (If..st,Switch..st)
+  2) Iteration Statements (Looping)

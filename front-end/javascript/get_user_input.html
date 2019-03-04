@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Get User input</title>
+	<style>
+		#result{
+			
+			color:red;
+			font-size:22px;
+			font-family: tahoma;
+		}
+	 
+	</style>
+	
+	<script>
+	  function sumTwoNumbers()
+		{
+			// parseInt() , parseFloat()
+			var fno = parseFloat(document.getElementById("firstNumber").value) ,
+				sno = parseFloat(document.getElementById('secondNumber').value),
+				
+			
+               document.getElementById("result").innerHTML=fno+sno;
+			//document.write(fno+sno);
+		}
+	</script>
+	
+</head>
+
+<body>
+	<div id="result"></div>
+	<form>
+	  <input type="text" id="firstNumber" name="firstNumber" placeholder="First Number"><br>
+	  <input type="text" id="secondNumber" name="secondNumber" placeholder="Second Number"><br>
+	  <input type="button" value="OK" onclick="sumTwoNumbers()">
+		
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,10 @@
+
+ Data types:
+ ---------------
+ 1- Strong Data Types 
+     type var_name = value 
+     ex:
+     string username = 'ali';
+     int age = 20; 
+
+ 2- Weak Data Types => JS & PHP 

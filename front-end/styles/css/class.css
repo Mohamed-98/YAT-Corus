@@ -1,0 +1,28 @@
+
+ /*  Define your own class  */ 
+
+.btn{
+	width:70px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	font-size: 14px;
+	font-weight:normal;
+	padding:7px;
+	color:#FFF;
+} 
+
+
+.btn-primary{
+	background-color:#337ab7;
+}
+.btn-primary:hover{
+	background-color:#286090;
+}
+
+.btn-success{
+	background-color:#398439;
+}
+.btn-success:hover{
+ background-color:#449d44;
+}

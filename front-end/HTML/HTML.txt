@@ -1,0 +1,16 @@
+HTML?
+         Hypertext markup language 
+Tags -> like  <text> 
+
+---------------------------------------------------
+* Structure HTML file
+* HTML Tags 
+  ** Container Tags 
+  ** Empty Tags [self-closing]
+* HTML comments 
+* HTML Attributes 
+* Basics Tags => Paragraph & Heading 
+* Hyperlinks => anchor tag <a>...</a>
+* Images =><img src="">
+* Tables 
+* Forms 
