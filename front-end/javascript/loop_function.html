@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Loop example</title>
+	
+	<script>
+	
+		 function setOptions(start,end,defOption){
+			 
+			 document.write("<select>");
+			   document.write("<option>"+defOption+"</otion>");
+			   for(var from=start;from<=end;from++){
+			   document.write("<option>"+from+"</option>");
+			   }
+			 document.write("</select>");
+		 }
+	
+	</script>
+	
+	
+</head>
+
+<body>
+	<script>
+	  setOptions(1950,2019,"years");
+	 setOptions(1,31,"days");
+	</script>
+	
+	
+</body>
+</html>

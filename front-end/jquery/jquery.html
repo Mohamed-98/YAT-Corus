@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JQuery</title>
+	<!--<link rel="stylesheet" href="css/style.css" >-->
+</head>
+
+<body>
+	
+	<h2 class="jq">JQuery</h2>
+	<p class="jq">Write less do more</p>
+	<p id="welcome">Welcome to Jquery</p>
+	<button type="button" id="btn1">Click Here</button>
+	<!-- Include JQuery  -->
+	<script src="js/jquery.js"></script>
+	<!--<script src="js/script.js"></script>-->
+	<script>
+	   $(document).ready(function (){
+		   
+		   $('#btn1').click(function (){
+			   
+			   $('#welcome').hide(2000).delay(1000).show(2000);
+		   });
+		   
+	   });
+	</script>
+	
+</body>
+</html>

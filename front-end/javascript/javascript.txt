@@ -22,7 +22,7 @@ Syntax:
 
 </script>
 
-Functions:=> reusable code 
+* Functions:=> reusable code 
 ----------------
 * Built-in functions 
 * User-defined functions 
@@ -32,3 +32,12 @@ function function_name()
 {
   // function_body 
 }
+
+* Variables
+* Operators 
+
+* Control Statements (Prgram Control Flow)
+  1) Conditional Statements (If..st,Switch..st)
+  2) Iteration Statements (Looping)
+
+* Arrays

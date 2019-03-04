@@ -1,3 +1,11 @@
-@charset "utf-8";
-/* CSS Document */
 
+/* Login Form Style  */
+.login-form{
+	width:300px;
+}
+
+.login-form input{
+	margin-bottom: 9px;
+}
+
+/* End Login Form Style */

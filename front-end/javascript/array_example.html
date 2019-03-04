@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	
+	
+	<table border="1" align="center">
+	<thead>
+	  <tr>
+		  <th>Employee</th>
+		  <th>Salary</th>
+	  </tr>	
+	</thead>
+	<tbody>
+	<script>
+	 var employee = ['ahmed','ali','mohamed','ramy','sara','ibrahim'];
+	 var salaries = [1000,1200,1500,3000,2800,3500];
+	 var sum=0;	
+	 for(var i = 0; i<employee.length;i++){
+		 document.write("<tr><td>" + employee[i] + "</td><td>" + salaries[i] + "</td><tr>");
+	 }	
+		
+	 for(var s=0;s<salaries.length;s++){
+		 
+		 //sum = sum + salaries[s];
+		 sum += salaries[s];
+	 }	
+	 document.write("<tr><td>Total</td>" +"<td>"+sum+"</td></tr>" );	
+	</script>
+		
+	</tbody>
+	</table>
+</body>
+</html>

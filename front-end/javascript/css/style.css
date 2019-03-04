@@ -3,3 +3,9 @@ color:blue;
 text-align:center;
 font-size:36px;
 }
+
+#errMsg{
+color:red;
+margin-top:15px;
+font-style: italic;
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	
+	<form>
+	  <input type="radio" class="colors" name="color" value="red">Red
+	  <input type="radio" class="colors" name="color" value="blue">Blue
+	  <input type="radio" class="colors" name="color" value="green">Green
+	</form>
+	
+	<p id="setColor"></p>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	  $(document).ready(function (){
+		  
+		  $('.colors').change(function (){
+			  var color = $(this).val();
+			  $('body').css({'background-color':color});
+		  });
+		  
+		  /*$('#color1').change(function (){
+			  var color = $(this).val() ;
+			  $('body').css({'background-color':color});
+		  });
+		   $('#color2').change(function (){
+			  var color = $(this).val() ;
+			  $('body').css({'background-color':color});
+		  });
+		   $('#color3').change(function (){
+			  var color = $(this).val() ;
+			  $('body').css({'background-color':color});
+		  });*/
+		  
+	  });
+	</script>
+</body>
+</html>
