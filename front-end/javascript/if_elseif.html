@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	
+	<script>
+	  function checkUser()
+		{
+			var usType = document.getElementById("userType").value ;
+			if(usType=="1"){
+			   window.location ='http://www.google.com';
+		     }
+			else if(usType=="2"){
+				window.location ='http://www.yahoo.com';
+			}else if(usType=="3")
+			{
+				window.location ='http://www.facebook.com';
+			}else{
+				
+			}
+			
+		}
+	</script>
+	
+</head>
+
+<body>
+	
+	<form>
+	
+		<select id="userType" onChange="checkUser()">
+		<option>-- User Type --</option>
+		<option value="1">Superadmin</option>
+		<option value="2">Admin</option>
+		<option value="3">Data Entry</option>
+		</select>
+	
+	</form>
+	
+	
+</body>
+</html>

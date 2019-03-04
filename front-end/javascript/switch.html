@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Switch St.</title>
+	<script>
+	function checkColor()
+	{
+		var color = document.getElementById("colors").value ;
+		
+		switch(color)
+	    {
+			case "#CB393C" :
+				document.getElementById("showColor").innerHTML = color;
+				//alert("Color1");
+				break;
+			case "#C138CF":	
+				document.getElementById("showColor").innerHTML = color;
+				//alert("Color2");
+				break;
+			case "#D1717D":	
+				document.getElementById("showColor").innerHTML = color;
+				//alert("Color3");
+				break;
+				
+			default:   // else 
+				alert('Invalid Color..');
+				break;
+		}
+		
+	}
+	</script>
+	
+</head>
+
+<body>
+	
+	<select id="colors"  onChange="checkColor()">
+	
+		 <option>Select Color</option>
+		 <option value="#CB393C">#CB393C</option>
+	  	 <option value="#C138CF">#C138CF</option>
+		 <option value="#D1717D">#D1717D</option>
+	
+	</select>
+	
+   	<div id="showColor"></div>
+	
+</body>
+</html>
