@@ -1,0 +1,16 @@
+DDL: Data Definition Language
+--------------------------------
+Create , Alter , Drop 
+
+Environment Commands+SQL(MySQL,Ora,SQL Server,..)
+ex:
+- ALTER TABLE posts CHANGE title post_title varchar(255) not null 
+- rename table posts to my_posts 
+
+CREATE TABLE employees (
+ emp_id int not null primary key auto_increment ,
+ emp_name varchar(50) not null ,
+ emp_job varchar(50) not null ,
+ emp_salary float not null,
+emp_comm float null   
+)

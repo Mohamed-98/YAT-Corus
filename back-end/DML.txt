@@ -1,0 +1,76 @@
+﻿DML: Data Manipulation Language
+--------------------------------------
+** Insert Statement
+INSERT INTO table_name (list columns) values(list value)
+ex:
+INSERT INTO employees (emp_id,emp_name,emp_job,emp_salary,emp_comm)
+VALUES (NULL,'ahmed','developer',1000,NULL)
+
+-- Row Constructor 
+-----------------------
+ex:
+INSERT INTO employees (emp_id,emp_name,emp_job,emp_salary,emp_comm)
+VALUES (NULL,'ali','designer',1500,100),
+       (NULL,'Maged','IT',1900,NULL),
+       (NULL,'sara','developer',2500,60)
+
+----------------------------------------------------------
+** Update Statement
+----------------------
+Update table_name SET column_name = value , column_name = value 
+WHERE condition(s)
+UPDATE employess SET emp_salary = 5000 , emp_comm = 150 
+WHERE emp_job = 'developer'
+-----------------------------------------------------------------
+** Delete Statement
+---------------------
+DELETE FROM table_name WHERE condtion(s)
+ex:
+DELETE FROM employees WHERE emp_id = 7
+------------------------------------------------------------------
+** Select Statement 
+----------------------------
+SELECT  COLUMNS_NAMES
+FROM    table_name 
+WHERE   condition(s)
+
+ex1:
+SELECT emp_name,emp_job,emp_salary
+FROM employees 
+WHERE emp_job = 'developer'
+
+ex2:
+SELECT * 
+FROM employees
+
+keywords:
+----------
+** ORDER BY (ASCENDING / DESCENDING )
+ex:
+SELECT * 
+FROM employees
+ORDER BY emp_salary DESC
+
+** DISTINCT 
+EX:
+SELECT DISTINCT emp_job FROM employees
+
+-------------------------------------------------
+** Operators
+--------------
+-is null 
+ex:
+select * from employees where emp_comm is not null 
+
+-IN 
+ex:
+select * from employees where emp_salary NOT IN(2100,1900)
+
+- Between .. and .. 
+ex:
+select * from employees where emp_salary NOT BETWEEN 2000 and 5000
+
+- alias name
+ex:
+select emp_name as 'أسم الموظف' , emp_job as 'الوظيفة' , emp_comm as 'العمولة'
+FROM employees 

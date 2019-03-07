@@ -6,8 +6,6 @@ Databases:
 
 xampp->Local server
 filename.sql
-
-
 phpMyAdmin
 
 Queries:(SQL Statements)
