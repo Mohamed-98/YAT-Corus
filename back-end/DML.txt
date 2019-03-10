@@ -70,6 +70,14 @@ select * from employees where emp_salary NOT IN(2100,1900)
 ex:
 select * from employees where emp_salary NOT BETWEEN 2000 and 5000
 
+- LIKE 
+ex1:
+  SELECT * FROM employees WHERE emp_name LIKE 'a%'
+ex2:
+  SELECT * FROM employees WHERE emp_name LIKE '%ed'
+ex3:
+  SELECT * FROM employees WHERE emp_name LIKE '%ahmed%'
+
 - alias name
 ex:
 select emp_name as 'أسم الموظف' , emp_job as 'الوظيفة' , emp_comm as 'العمولة'

@@ -1,0 +1,19 @@
+﻿SQL Operators
+-----------------
+1- Arithmetical Operators (+,-,*,/)
+   ex:
+    SELECT emp_name , emp_salary , (emp_salary + 100) * 3 as 'Total of Salary in 3 Month'
+   FROM employees
+2- Comparison Operators (=,>,<,>=,<=,<>)
+   ex1:
+   SELECT * FROM employees WHERE emp_salary > 2000
+   ex2:
+   SELECT * FROM employees WHERE emp_salary <> 2000
+3- Logical Operators (and , or , not )
+   ex1:
+   SELECT * FROM employees
+   WHERE emp_salary > 4000 AND emp_job = 'developer'
+  ex2:
+  select * from users 
+  where (user_name = 'ahmed' or email = 'ahmed@gmail.com')
+  and user_pass = '12345'
