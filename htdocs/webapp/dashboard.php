@@ -52,6 +52,9 @@ include('header.php');
 							 case 'search.php':
 								 echo 'Search';
 								 break;
+							 case 'edit_post.php':
+								 echo 'Edit Post';
+								 break;
 						 }
 					 }else{
 						 echo 'Main Page';
